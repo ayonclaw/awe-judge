@@ -14,5 +14,5 @@ holding exactly the weight it was built for.
     mkdir -p out
     MAKEFUN_OUTPUT_DIR=out node main.ts
 
-The program writes `out/entry.txt` (277 characters, inside the 280 the rules allow) and prints its
+The program writes `out/entry.txt` (261 characters, inside the 280 the rules allow) and prints its
 length. No network, no packages, no other file touched.
